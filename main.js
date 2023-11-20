@@ -34,6 +34,9 @@ const options = {
         },
         add: function(){
             this.todolist.push({text: this.todo, done: false})
+        },
+        done_undone: function(elem){
+            elem.done = !elem.done;
         }
     }
 }
