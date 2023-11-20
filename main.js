@@ -28,6 +28,9 @@ const options = {
             else{
                 return ""
             }
+        },
+        remove: function(index){
+            this.todolist.splice(index, 1);
         }
     }
 }
