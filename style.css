@@ -22,3 +22,14 @@ li{
 li>.fa-xmark{
     text-decoration:none;
 }
+
+.form-add{
+    margin-top: 3rem;
+    margin-left: 1rem;
+    display: flex;
+    justify-content: space-between;
+}
+
+.textarea{
+    width: 50%;
+}

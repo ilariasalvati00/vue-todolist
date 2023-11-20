@@ -31,6 +31,9 @@ const options = {
         },
         remove: function(index){
             this.todolist.splice(index, 1);
+        },
+        add: function(){
+            this.todolist.push({text: this.todo, done: false})
         }
     }
 }

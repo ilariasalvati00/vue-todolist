@@ -17,6 +17,11 @@
                 <i class="fa-solid fa-xmark" @click="remove(indice)"></i>
             </li>
         </ul>
+
+        <div class="form-add">
+            <input type="text" v-model="todo" class="textarea" @keyup.enter="add">
+            <input type="button" value="Aggiungi" @click="add">
+        </div>
     </div>
     <script src="main.js"></script>
 </body>
