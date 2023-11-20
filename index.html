@@ -9,7 +9,11 @@
 <body>
     <script src="https://unpkg.com/vue@3/dist/vue.global.js"></script>
 
-
+    <div id="app">
+        <ul>
+            <li v-for="(elemento) in todolist" :class="sbarra(elemento)"> {{ elemento.text }}</li>
+        </ul>
+    </div>
     <script src="main.js"></script>
 </body>
 </html>
